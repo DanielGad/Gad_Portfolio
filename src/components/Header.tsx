@@ -45,9 +45,9 @@ const Header = () => {
             BLOGS
           </Link>
         </span>
-        
-        <span>Call To Action</span>
+    
       </div>
+      <button className="call">Call To Action</button>
     </div>
   )
 }

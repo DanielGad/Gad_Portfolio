@@ -17,7 +17,7 @@
   display: flex;
   width: 100%;
   text-align: right;
-  margin-right: 40px;
+  margin-right: 20px;
   gap: 30px;
   justify-content: flex-end;
 }
@@ -31,13 +31,30 @@ a {
 
 a:hover {
   color: orange;
-  border: 2px solid orange;
-  padding: 5px;
+  /* border: 2px solid orange; */
+  /* padding: 5px; */
 }
 
 .active {
-  padding-bottom: 1px;
   border-bottom: 3px solid orange;
   font-weight: bold;
   color: orange;
+  padding-bottom: -15px;
+}
+
+.call {
+  width: 10%;
+  display: flex;
+  padding: 5px 12px;
+  background-color: white;
+  border: blue 3px solid;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.call:hover {
+  background-color: blue;
+  color: white;
+  border: orange 3px solid;
 }
