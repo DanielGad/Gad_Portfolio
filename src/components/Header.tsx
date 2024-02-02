@@ -26,40 +26,53 @@ const Header = () => {
     };
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
-    <div className={`header-container ${isScrolled ? 'opaque' : 'transparent'} `}>
+    <div className={`header-container ${isScrolled ? 'opaque' : 'transparent'} `} onClick={scrollToTop}>
       <div style={{width: "60px"}}>
-        <img src="/G.png" alt="Gad logo" width={"100%"}/>
+        <img src="/G.png" alt="Gad logo" width={"100%"} className={`${isScrolled ? 'gggb' : 'bgg'}`}/>
       </div>
 
       <div className={`menus `}>
-        <div className={activeMenu === 'home' ? 'active' : ''}>
+        <div>
           <Link to="home" spy={true} smooth={true} onClick={() => handleMenuClick('home')}>
-            HOME
+          <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'home' ? 'active' : ''}`}>HOME</div>
           </Link>
         </div>
 
-        <div className={activeMenu === 'about' ? 'active' : ''}>
+        
+          <div>
           <Link to="about" spy={true} smooth={true} onClick={() => handleMenuClick('about')}>
-            ABOUT
+          <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'about' ? 'active' : ''}`}>ABOUT</div>
           </Link>
-        </div>
+          </div>
+        
+        
 
-        <div className={activeMenu === 'contact' ? 'active' : ''}>
+        <div>
           <Link to="contact" spy={true} smooth={true} onClick={() => handleMenuClick('contact')}>
-            CONTACT
+          <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'contact' ? 'active' : ''}`}>
+            CONTACT </div>
           </Link>
         </div>
 
-        <div className={activeMenu === 'skills' ? 'active' : ''}>
+        <div>
           <Link to="skills" spy={true} smooth={true} onClick={() => handleMenuClick('skills')}>
-            SKILLS
+          <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'skills' ? 'active' : ''}`}>
+            SKILLS</div>
           </Link>
         </div>
 
-        <div className={activeMenu === 'blogs' ? 'active' : ''}>
+        <div>
           <Link to="blogs" spy={true} smooth={true} onClick={() => handleMenuClick('blogs')}>
-            BLOGS
+          <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'blogs' ? 'active' : ''}`}>
+            BLOGS</div>
           </Link>
         </div>
     

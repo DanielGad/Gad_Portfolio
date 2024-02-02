@@ -1,8 +1,10 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Montserrat:ital,wght@0,500;0,700;1,300&family=Noto+Sans:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:ital,wght@0,400;1,300;1,400&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
 body {
   margin: 0 auto;
   background-image: url("/image-4.jpg");
   background-size: contain;
   background-repeat: repeat;
   height: 5000px;
-  font-family: 'Arial', sans-serif;
+  font-family: noto sans, roboto, montserrat;
 }
