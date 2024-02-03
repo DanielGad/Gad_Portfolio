@@ -13,7 +13,9 @@ const Home = () => {
         <div className="image-border">
           
         </div>
-        <img src="/ggg.png" alt="Gad image" width={"60%"} className="gad"/>
+        <div className="imggg">
+          <img src="/ggg.png" alt="Gad image" className="gad"/>
+        </div>
       </div>
     </div>
   )

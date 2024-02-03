@@ -6,6 +6,7 @@
   background-color: white;
   color: black;
   position: fixed;
+  top: 0;
   z-index: 10;
   display: flex;
   justify-content: space-between;
@@ -84,4 +85,41 @@
   padding: 5px;
   border-radius: 15px;
   cursor: pointer;
+}
+
+.bar-icon, .x-icon {
+  width: 40px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.ham {
+  background-color: rgb(0,24,50);
+  position: fixed;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  margin-top: 83px;
+  padding-top: 20px;
+  z-index: 15;
+  text-align: center;
+  border-left: 3px solid orange;
+  border-radius: 10% 0px 00px 10%;
+}
+
+.hamburger-link {
+  padding: 25px 0;
+}
+
+.link-ham {
+  font-size: 130%;
+  cursor: pointer;
+}
+
+.link-ham:hover {
+  color: orange;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 959px) {
+  
 }
