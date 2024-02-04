@@ -10,11 +10,8 @@ const Home = () => {
         <h3 className="text-4">Frontend Developer | Graphics Designer</h3>
       </div>
       <div className="home-right">
-        <div className="image-border">
-          
-        </div>
         <div className="imggg">
-          <img src="/ggg.png" alt="Gad image" className="gad"/>
+          <img src="/gad.png" alt="Gad image" className="gad"/>
         </div>
       </div>
     </div>
