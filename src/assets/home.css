@@ -59,6 +59,7 @@
     row-gap: 0;
     padding-top: 100px;
     padding-bottom: 50px;
+    transition: right 0.3s ease-in-out;
   }
 
   .text-2 {
