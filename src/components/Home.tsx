@@ -14,9 +14,6 @@ const Home = () => {
           <img src="/gad.png" alt="Gad image" className="gad"/>
         </div>
       </div>
-      <div className="animated-box">
-    <div className="animated-object">Hello World</div>
-  </div>
     </div>
     
   )

@@ -18,7 +18,7 @@
 }
 
 .text-2 {
-  background-color: orange;
+  background-color: rgb(245,134,52);
   border-radius: 50%;
   width: fit-content;
   padding: 10px;
@@ -63,7 +63,7 @@
   }
 
   .text-2 {
-    background-color: orange;
+    background-color: rgb(245,134,52);
     border-radius: 50%;
     width: fit-content;
     padding: 10px;
