@@ -68,15 +68,6 @@ const Header = () => {
           <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'about' ? 'active' : ''}`}>ABOUT</div>
           </Link>
           </div>
-        
-        
-
-        <div>
-          <Link to="contact" spy={true} smooth={true} onClick={() => handleMenuClick('contact')}>
-          <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'contact' ? 'active' : ''}`}>
-            CONTACT </div>
-          </Link>
-        </div>
 
         <div>
           <Link to="skills" spy={true} smooth={true} onClick={() => handleMenuClick('skills')}>
@@ -89,6 +80,13 @@ const Header = () => {
           <Link to="blogs" spy={true} smooth={true} onClick={() => handleMenuClick('blogs')}>
           <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'blogs' ? 'active' : ''}`}>
             BLOGS</div>
+          </Link>
+        </div>
+
+        <div>
+          <Link to="contact" spy={true} smooth={true} onClick={() => handleMenuClick('contact')}>
+          <div className={`link ${isScrolled ? 'dark-text' : 'light-text'} ${activeMenu === 'contact' ? 'active' : ''}`}>
+            CONTACT </div>
           </Link>
         </div>
     
@@ -124,12 +122,6 @@ const Header = () => {
             </div>
 
             <div className="hamburger-link">
-              <Link to="contact" spy={true} smooth={true} onClick={() => handleMenuClick('contact')}>
-              <div className={`link-ham ${isScrolled ? 'dark-text' : 'dark-text'}`}>CONTACT</div>
-              </Link>
-            </div>
-
-            <div className="hamburger-link">
               <Link to="skills" spy={true} smooth={true} onClick={() => handleMenuClick('skills')}>
               <div className={`link-ham ${isScrolled ? 'dark-text' : 'dark-text'}`}>SKILLS</div>
               </Link>
@@ -138,6 +130,12 @@ const Header = () => {
             <div className="hamburger-link">
               <Link to="blogs" spy={true} smooth={true} onClick={() => handleMenuClick('blogs')}>
               <div className={`link-ham ${isScrolled ? 'dark-text' : 'dark-text'}`}>BLOGS</div>
+              </Link>
+            </div>
+
+            <div className="hamburger-link">
+              <Link to="contact" spy={true} smooth={true} onClick={() => handleMenuClick('contact')}>
+              <div className={`link-ham ${isScrolled ? 'dark-text' : 'dark-text'}`}>CONTACT</div>
               </Link>
             </div>
           </div>

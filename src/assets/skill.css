@@ -1,0 +1,44 @@
+.Skill-container {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.Skill-container h1 {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(0,24,50);
+  color: white;
+  border-radius: 20px;
+  padding: 10px 0;
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid rgb(245,134,52);
+}
+
+.container-a {
+  background-color: rgb(0,24,50);
+  color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.cont-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px
+}
+
+.ski-a-a, .ski-a-b, .ski-a-c {
+  border: 2px solid white;
+  padding: 3px;
+  border-radius: 10px;
+  margin-top: 10px;
+  /* border-top: none; */
+}
+
+@media screen and (max-width: 959px) {
+  .cont-1 {
+    display: block;
+  }
+}

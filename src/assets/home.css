@@ -27,8 +27,10 @@
 }
 
 .text-3 {
-  font-size: 40px;
-  width: 70%;
+  font-size: 55px;
+  width: 80%;
+  font-family: roboto;
+  font-weight: 800;
   text-align: center;
   margin: auto;
   padding-bottom: 10px;
