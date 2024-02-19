@@ -1,9 +1,15 @@
 .BlogDetails-container {
   background-color: aliceblue;
+  padding-bottom: 20px;
 }
 
 .blog-details {
   width: 80%;
   margin: auto;
   padding-top: 80px;
+}
+
+.blog-details img {
+  width: 50%;
+  text-align: left;
 }

@@ -37,7 +37,9 @@ const Blog = () => {
         <div className="blogs-in">
           {blogs.map((item) => (
             <div key={item.id} className="blog">
+              <Link to={`/Blogs/${item.id}`}>
               <img src={item.image} alt="image" />
+              </Link>
               <h2>{item.Title}</h2>
               <p>{item.Short}</p>
               <p style={{ fontWeight: "800" }}>Author: {item.Author}</p>

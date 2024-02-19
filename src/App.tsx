@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div>
         <Routes>
-          <Route path='/' element={
+          <Route path="/" element={
             <>
             <Header />
             <Home />
@@ -22,8 +22,8 @@ function App() {
           } />
           <Route path="/Blogs/:id" element={
            <>
-          <Header />
-          <BlogDetails />
+              <Header />
+              <BlogDetails />
            </>
           } />
         </Routes>

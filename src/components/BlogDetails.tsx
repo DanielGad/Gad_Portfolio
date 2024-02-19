@@ -47,9 +47,10 @@ const BlogDetails = () => {
     <div className="BlogDetails-container">
       <div className="blog-details">
         <h1>{blog.Title}</h1>
+        <h3 style={{ fontWeight: "800" }}> <span style={{color: "Blue"}}>Author:</span>  {blog.Author}</h3>
         <img src={blog.image} alt="image" />
         <p>{blog.Body}</p>
-        <p style={{ fontWeight: "800" }}>Author: {blog.Author}</p>
+        
       </div>
     </div>
   );

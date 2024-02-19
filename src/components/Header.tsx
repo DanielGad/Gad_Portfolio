@@ -51,7 +51,7 @@ const Header = () => {
     <div className={`header-container ${isScrolled ? 'opaque' : 'transparent'} `}>
       
       <div style={{width: "60px"}}>
-        <Link to={"/Blogs/"}>
+        <Link to={"/"}>
         <img src="/G.png" alt="Gad logo" width={"100%"} className={`${isScrolled ? 'gggb' : 'bgg'}`} onClick={scrollToTop}/>
         </Link>
       </div>
