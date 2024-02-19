@@ -49,9 +49,13 @@ const Header = () => {
   return (
     <>
     <div className={`header-container ${isScrolled ? 'opaque' : 'transparent'} `}>
+      
       <div style={{width: "60px"}}>
+        <Link to={"/Blogs/"}>
         <img src="/G.png" alt="Gad logo" width={"100%"} className={`${isScrolled ? 'gggb' : 'bgg'}`} onClick={scrollToTop}/>
+        </Link>
       </div>
+      
 
       <div className={`menus `}>
         {isAboveMediumScreens ? (

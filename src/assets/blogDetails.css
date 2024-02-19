@@ -1,0 +1,9 @@
+.BlogDetails-container {
+  background-color: aliceblue;
+}
+
+.blog-details {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+}

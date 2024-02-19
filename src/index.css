@@ -5,6 +5,5 @@ body {
   background-image: url("/image-4.jpg");
   background-size: contain;
   background-repeat: repeat;
-  height: 5000px;
   font-family: noto sans, roboto, montserrat;
 }
