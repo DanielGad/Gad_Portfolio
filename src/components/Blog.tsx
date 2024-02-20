@@ -1,6 +1,7 @@
 import "@/assets/blog.css"
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+// import jsonData from "../../data.json"
 
 interface BlogItem {
   id: string;
@@ -19,9 +20,11 @@ const Blog = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("http://localhost:5000/Blogs");
+      const response = await fetch("/db.json");
       const jsonData: BlogItem[] = await response.json();
       setBlogs(jsonData);
+      console.log(jsonData);
+      
     } catch (error) {
       console.error("Error fetching data", error);
     }

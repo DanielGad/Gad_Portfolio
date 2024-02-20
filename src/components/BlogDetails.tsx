@@ -49,7 +49,7 @@ const BlogDetails = () => {
         <h1>{blog.Title}</h1>
         <h3 style={{ fontWeight: "800" }}> <span style={{color: "Blue"}}>Author:</span>  {blog.Author}</h3>
         <img src={blog.image} alt="image" />
-        <p>{blog.Body}</p>
+        <p style={{ whiteSpace: 'pre-wrap' }}>{blog.Body}</p>
         
       </div>
     </div>
