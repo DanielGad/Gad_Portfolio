@@ -17,14 +17,17 @@ const BlogDetails = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/Blogs/${id}`);
+      const response = await fetch(`/db.json/${id}`);
       const jsonData: Blog = await response.json();
       setBlog(jsonData);
+      console.log(jsonData);
     } catch (error) {
       console.error("Error fetching data", error);
       setError("Blog not found");
     }
   };
+  
+  
 
   useEffect(() => {
     fetchData();
